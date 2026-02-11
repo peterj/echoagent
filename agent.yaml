@@ -12,7 +12,8 @@ mcpServers:
         - MCP_TRANSPORT_MODE=http
         - HOST=0.0.0.0
         - MCP_STATELESS_HTTP=true
-      registryURL: http://172.19.0.4:8080
+      registryURL: http://172.19.0.4:12121
       registryServerName: user/echomcp
       registryServerVersion: 0.0.1
-updatedAt: 2026-02-11T09:40:31.851293-08:00
+      registryServerPreferRemote: true
+updatedAt: 2026-02-11T10:47:23.911955-08:00
