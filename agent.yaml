@@ -5,6 +5,7 @@ framework: adk
 modelProvider: gemini
 modelName: gemini-2.0-flash
 description: ""
+telemetryEndpoint: https://telemetry.agentregistry.b.solo-agentic-demo.com/
 mcpServers:
     - type: registry
       name: user-echomcp
@@ -12,7 +13,7 @@ mcpServers:
         - MCP_TRANSPORT_MODE=http
         - HOST=0.0.0.0
         - MCP_STATELESS_HTTP=true
-      registryURL: http://172.19.0.4:12121
+      registryURL: http://172.19.0.4:8080
       registryServerName: user/echomcp
       registryServerVersion: 0.0.1
       registryServerPreferRemote: true
