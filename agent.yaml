@@ -1,0 +1,18 @@
+agentName: echoagent
+image: docker.io/pj3677/echoagent:0.0.1
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+mcpServers:
+    - type: registry
+      name: user-echomcp
+      env:
+        - MCP_TRANSPORT_MODE=http
+        - HOST=0.0.0.0
+        - MCP_STATELESS_HTTP=true
+      registryURL: 172.19.0.4:8080
+      registryServerName: user/echomcp
+      registryServerVersion: 0.0.1
+updatedAt: 2026-02-11T09:40:31.851293-08:00
