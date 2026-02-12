@@ -13,7 +13,7 @@ mcpServers:
         - MCP_TRANSPORT_MODE=http
         - HOST=0.0.0.0
         - MCP_STATELESS_HTTP=true
-      registryURL: http://172.19.0.4:8080
+      registryURL: https://api.agentregistry.b.solo-agentic-demo.com/ 
       registryServerName: user/echomcp
       registryServerVersion: 0.0.1
       registryServerPreferRemote: true
